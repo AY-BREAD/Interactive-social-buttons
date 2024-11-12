@@ -1,0 +1,99 @@
+/* Basic styles for the container */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px; /* Adjust the vertical position */
+}
+
+/* Style for the social media buttons */
+.social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;    /* Make the buttons larger */
+    height: 70px;   /* Make the buttons larger */
+    background-color: #fff;
+    border-radius: 10px; /* Round the corners of the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a 3D effect */
+    transition: all 0.3s ease;
+}
+
+/* Icon styles */
+.social-btn i {
+    font-size: 30px;  /* Increase icon size */
+    color: #333;      /* Set default icon color */
+}
+
+/* Hover effect */
+.social-btn:hover {
+    transform: scale(1.5); /* Slightly enlarge the button on hover */
+}
+
+.social-btn:hover i {
+    color: #fff; /* Change icon color on hover */
+}
+
+/* Specific button colors */
+.facebook {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+.twitter {
+    background-color: #1da1f2; /* Twitter blue */
+}
+
+.instagram {
+    background-color: #e4405f; /* Instagram pink */
+}
+
+.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+
+.youtube {
+    background-color: #ff0000; /* YouTube red */
+}
+
+/* Hover effect for each social button */
+.social-btn:hover.facebook {
+    background-color: #2d4373; /* Darken Facebook on hover */
+}
+
+.social-btn:hover.twitter {
+    background-color: #1a91c0; /* Darken Twitter on hover */
+}
+
+.social-btn:hover.instagram {
+    background-color: #c13584; /* Darken Instagram on hover */
+}
+
+.social-btn:hover.linkedin {
+    background-color: #005f84; /* Darken LinkedIn on hover */
+}
+
+.social-btn:hover.youtube {
+    background-color: #cc0000; /* Darken YouTube on hover */
+}
+body {
+    background-color: #f4f4f4; /* Light background */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+/* Add shadow to the icons to make them pop */
+.social-btn i {
+    font-size: 30px;
+    color: #333;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
